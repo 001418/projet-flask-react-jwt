@@ -1,0 +1,10 @@
+# Répertoires à exclure
+node_modules
+build
+
+# Fichiers Docker inutiles à copier
+Dockerfile
+.dockerignore
+
+# Variables sensibles
+.env

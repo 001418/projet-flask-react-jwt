@@ -1,0 +1,45 @@
+from pathlib import Path
+
+gitignore_content = """
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bases de données locales
+*.db
+*.sqlite3
+
+# Variables d’environnement
+.env
+
+# Node.js (si frontend React plus tard)
+node_modules/
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# MacOS / Windows fichiers systèmes
+.DS_Store
+Thumbs.db
+
+# Dossier instance contenant la base de données SQLite
+instance/*.db
+instance/
+
+
+"""
+
+gitignore_path = Path("/mnt/data/bibliotheque-app/.gitignore")
+gitignore_path.write_text(gitignore_content.strip() + "\n", encoding="utf-8")
+
+gitignore_path

@@ -1,0 +1,39 @@
+.books-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fefefe;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.message {
+  color: red;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-item:last-child {
+  border-bottom: none;
+}
+
+.badge {
+  background-color: #007bff;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 5px;
+}
